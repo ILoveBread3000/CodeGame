@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Welcome to my world</title>
+        <style>
+            #main-header{
+                text-align: center;
+                color: white;
+                background-color: black;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="blog.html">Go to blog</a>
+        <hr>
+        <!-- Headings-->
+        <h1 id="main-header">Heading One</h1>
+        <!--Paragraph-->    
+        <p>
+                 Lorem ipsum, <strong> sit <a href="https://www.google.com.vn/" target="_blank">amet</a> consectetur adipisicing elit. </strong> Quis, suscipit.    
+        </p>
+        <p>
+            Lorem ipsum, <em>dolor sit amet consectetur</em> adipisicing elit. Quis, suscipit.    
+        </p>
+        <!--List-->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+        <!--Table-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GOD</td>
+                    <td>God@gg.com</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Jhin</td>
+                    <td>Jhin@something.com</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>JohnSnow@maig.com</td>
+                    <td>31</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Form -->
+        <form action="process.php" meothd="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter first name">    
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="Message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birhtday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" placeholder="Submit">
+
+        </form>
+
+        <!-- Button -->
+        <button>Clickme</button>
+        <br>
+        <!-- Image -->
+        <a href="img/Smurf.png" target="_blank">
+        <img src="img/Smurf.png" alt="My sad face" width="200">
+        </a>
+
+        <!-- Quotations -->
+        <blockquote cite="http://google.com">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, placeat? Ex, et, explicabo repellendus voluptates maxime perspiciatis illum dolore nisi quaerat ducimus excepturi eos vel, voluptatum fugiat qui dicta asperiores.
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+        <br>
+
+        <p><cite>HTML</cite> is hard</p>
+        <div style="margin-top:800px"></div>
+    </body>
+</html>
